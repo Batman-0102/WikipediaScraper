@@ -28,6 +28,7 @@ for row in column_data:
         iHeadquarters = individual_row_data[6].strip()
     except:
         individual_row_data.append(iHeadquarters.strip())
+        
     rank += 1
 
     length = len(df)
